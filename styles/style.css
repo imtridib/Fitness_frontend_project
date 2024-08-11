@@ -85,6 +85,10 @@ body {
   text-decoration: none;
 }
 
+.humberger-image {
+  display: none;
+}
+
 .header-content {
   max-width: 1060px;
   justify-content: space-between;
@@ -126,6 +130,9 @@ body {
   flex-direction: row;
   gap: 14px;
 }
+.for-small {
+  display: none;
+}
 .button_1 {
   width: 224px;
   height: 54px;
@@ -160,6 +167,213 @@ body {
 }
 .exercise_first_image {
   margin-top: 4px;
+  width: 349px;
+  height: 580px;
+  background: url(88);
+}
+
+.tag_section {
+  margin-top: -150px;
+}
+.new_tags {
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  width: 206px;
+  height: 96px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  margin-left: -110px;
+  backdrop-filter: blur(8px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.tag_info > .tag_head {
+  width: 68px;
+  height: 24px;
+  color: rgb(250, 250, 249);
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.tag_info > p {
+  width: 108px;
+  height: 24px;
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 6px;
+}
+.new_tags_2 {
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  width: 193px;
+  height: 98px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  position: absolute;
+  margin-top: -300px;
+  margin-left: 230px;
+  backdrop-filter: blur(8px);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.tag_head_2 {
+  width: 116px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.tag_info_1 {
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.tag_info_1 > p {
+  width: 166px;
+  height: 20px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+/* Responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .header-section {
+    max-width: 100%;
+    height: 2024px;
+  }
+  .navbar {
+    max-width: 100%;
+    height: 43px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 52px;
+  }
+  .title {
+    font-size: 1.5rem;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-weight: 800;
+    margin: 0px;
+  }
+  .humberger-image {
+    display: unset;
+  }
+  .navbar-content {
+    display: none;
+  }
+  .header-content {
+    flex-direction: column;
+  }
+
+  /* header responsive */
+  .header-content {
+    max-width: 352px;
+    height: 355px;
+    justify-content: flex-start;
+    margin: 0px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 28px;
+  }
+  .header-info {
+    width: 285px;
+    height: 129px;
+    margin: 20px 0px;
+  }
+  .header-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 95%;
+    text-align: left;
+  }
+  .Miama-font_style {
+    font-size: 4rem;
+  }
+  .header-text {
+    width: 274px;
+    height: 96px;
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+  .for-large {
+    display: none;
+  }
+  .for-small {
+    width: 86px;
+    height: 22px;
+    display: unset;
+  }
+  .button_1 {
+    width: 169px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .button2_span {
+    width: 128px;
+    height: 22px;
+  }
+  .button_2 {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 46px;
+    width: 169px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-image {
+    display: none;
+  }
+  /* .header-image {
+  flex-direction: column;
+}
+.exercise_first_image {
+  margin-top: 1004px;
   width: 349px;
   height: 580px;
   background: url(88);
@@ -254,4 +468,5 @@ body {
   letter-spacing: 1px;
   text-align: left;
   margin-top: 0px;
+} */
 }

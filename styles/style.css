@@ -365,12 +365,12 @@ body {
   letter-spacing: 0.3px;
 }
 
-/* Main Section: RUn */
+/* Main Section: Run */
 .run {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 165px;  
+  gap: 165px;
   width: 1060px;
   height: 371px;
   margin: 0 auto;
@@ -422,6 +422,234 @@ body {
   object-position: 70% 30%;
   border-radius: 18px;
   background: url(4);
+}
+
+/* BMI_Calc heading */
+.BMI_Calc_Head {
+  width: 671px;
+  height: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 14;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+.BMI_Calc_heading {
+  width: 365px;
+  height: 58px;
+  margin: 0px;
+
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.BMI_Calc_paragraph {
+  width: 671px;
+  height: 48px;
+  margin: 14px 0px;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+/* Section BMI_Calculator in main */
+.BMI_Calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  max-width: 100%;
+  height: 487px;
+  background: rgb(34, 34, 34);
+  margin: 88px 0px;
+}
+
+.BMI_Calculator_Chart_Header {
+  width: 443px;
+  height: 34px;
+  margin: 0px;
+  margin-top: 52px;
+  margin-bottom: 52px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.BMI_Calculator_Chart_table {
+  width: 310px;
+  height: 216px;
+}
+#BMI_Chart_table {
+  width: 310px;
+  height: 216px;
+  border-collapse: collapse;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+#BMI_Chart_table th {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+  width: 155px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: left;
+  color: rgba(255, 255, 255);
+}
+
+#BMI_Chart_table td,
+#BMI_Chart_table th {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 12px;
+}
+#BMI_Chart_table tr {
+  padding: 8px;
+}
+
+.BMI_Calculator_calc {
+  width: 577px;
+  height: 386px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* gap: 34px; */
+}
+.BMI_Calculator_calc_header {
+  width: 443px;
+  height: 34px;
+  margin: 0px;
+  margin-top: 49px;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.BMI_Calculator_calc-para {
+  width: 577px;
+  height: 48px;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.BMI_Calculater_input {
+  margin-top: 34px;
+  width: 577px;
+  height: 168px;
+  display: grid;
+  grid-template-columns: 282.5px 282.5px;
+
+  gap: 12px;
+}
+.bmi_index {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10;
+  padding: 12px 40px 12px 20px;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+}
+.space_large {
+  width: 518px !important;
+}
+#opt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.select_opt {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+}
+.bmi_button {
+  margin-top: 34px;
+}
+
+/* Team div on main section */
+.team_header {
+  width: 671px;
+  height: 120px;
+  margin: 0 auto;
+  gap: 14;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 37px;
+}
+.team_header_title {
+  width: 375px;
+  height: 58px;
+  margin: 0 auto;
+
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.team_header_para {
+  width: 100%;
+  height: 48px;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+@media screen and (max-width: 576px){
+.team_header {
+  width: 309px;
+height: 124px;
+}
+.team_header_title {
+  width: 255px;
+height: 38px;
+  font-size: 2rem;
+}
 }
 
 /* Responsive for mobile device */
@@ -683,5 +911,150 @@ body {
     align-items: center;
     margin: 0px auto;
     margin-top: 40px;
+  }
+
+  /* Run section in main div */
+  .run {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+    gap: 20px;
+    width: 353px;
+    height: 531px;
+    flex-direction: column;
+  }
+
+  .run_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 287px;
+    height: 264px;
+  }
+  .run_header_title {
+    margin: 0px;
+
+    color: rgb(255, 255, 255);
+
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    width: 287px;
+    height: 76px;
+    font-size: 2rem;
+  }
+  .run_header_paragraph {
+    margin: 14px 0px;
+
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+
+    width: 287px;
+    height: 96px;
+  }
+  .run_header_button {
+    align-items: center !important;
+    width: 287px !important;
+    margin-top: 10px;
+  }
+  .run_image {
+    width: 310px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 18px;
+    background: url(4);
+  }
+
+  /* BMI_Calc_Head */
+  .BMI_Calc_Head {
+    width: 353px;
+    height: 124px;
+  }
+  .BMI_Calc_heading {
+    width: 245px;
+    height: 38px;
+    font-size: 2rem;
+  }
+  .BMI_Calc_paragraph {
+    width: 353px;
+    height: 72px;
+  }
+
+  /* BMI calculator main into section */
+  .BMI_Calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    height: 816px;
+    margin: 60px 0px;
+  }
+  .BMI_Calculator_Chart_Header {
+    width: 180px;
+    height: 25px;
+    margin: 0px;
+    margin-left: -20px;
+    margin-top: -34px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  #BMI_Chart_table {
+    margin-left: -20px;
+  }
+  .BMI_Calculator_calc {
+    width: 354px;
+    height: 395px;
+    /* gap: 34px; */
+  }
+  .BMI_Calculator_calc_header {
+    width: 175px;
+    height: 19px;
+    margin: 0px;
+    margin-top: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+  }
+  .BMI_Calculator_calc-para {
+    width: 346px;
+    height: 72px;
+  }
+  .BMI_Calculater_input {
+    margin-top: 20px;
+    width: 353px;
+    height: 168px;
+    display: grid;
+    grid-template-columns: 170px 170px;
+
+    gap: 12px;
+  }
+  .space_large {
+    width: 292px !important;
+  }
+  .bmi_button {
+    align-items: center !important;
+    margin-top: 34px;
+    width: 224px !important;
+    height: 54px !important;
   }
 }

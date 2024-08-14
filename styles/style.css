@@ -365,12 +365,72 @@ body {
   letter-spacing: 0.3px;
 }
 
+/* Main Section: RUn */
+.run {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 165px;  
+  width: 1060px;
+  height: 371px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.run_header {
+  width: 443px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.run_header_title {
+  width: 443px;
+  height: 116px;
+  margin: 0px;
+
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.run_header_paragraph {
+  width: 443px;
+  height: 72px;
+  margin: 14px 0px;
+
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.run_header_button {
+  margin-top: 34px;
+}
+.run_image {
+  width: 366px;
+  height: 312px;
+  object-fit: none;
+  object-position: 70% 30%;
+  border-radius: 18px;
+  background: url(4);
+}
+
 /* Responsive for mobile device */
 @media screen and (max-width: 576px) {
   .header-section {
     max-width: 100%;
     height: 1024px;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .navbar {
     max-width: 100%;
@@ -574,5 +634,54 @@ body {
     letter-spacing: 0.76px;
     text-align: left;
     margin-top: 4px;
+  }
+
+  /* Habit section in main div */
+  .habits {
+    width: 338px;
+    height: 1398px;
+    margin-top: 0px;
+  }
+  .habits_title {
+    width: 318px;
+    height: 124px;
+  }
+  .habits_title > .habits_title_header {
+    position: absolute;
+    margin: 0 auto;
+    width: 335px;
+    height: 38px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .habits_title > .habits_title_paragraph {
+    width: 316px;
+    height: 72px;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 55px;
+  }
+  .habits_cards_section {
+    width: 338px;
+    height: 1216px;
+
+    display: grid;
+    grid-template-columns: 231px;
+    grid-gap: 0px;
+    justify-content: center;
+  }
+  #habits_card_1 {
+    margin-top: 180px;
+  }
+  .habits_card {
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 40px;
   }
 }

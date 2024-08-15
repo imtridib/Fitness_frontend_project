@@ -685,9 +685,6 @@ body {
   line-height: 20px !important;
   margin-top: 130px;
 }
-@media screen and (max-width: 576px) {
-  
-}
 .card_image {
   width: 326px;
   height: 272px;

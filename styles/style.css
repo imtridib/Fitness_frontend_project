@@ -34,6 +34,7 @@ body {
   display: flex;
 }
 .btn-primary {
+  cursor: pointer;
   background: rgb(230, 83, 60);
   color: white;
   width: 92px;
@@ -567,6 +568,8 @@ body {
   width: 577px;
   height: 168px;
   display: grid;
+  
+  
   grid-template-columns: 282.5px 282.5px;
 
   gap: 12px;
@@ -587,6 +590,7 @@ body {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0px;
+  border: none;
 }
 .space_large {
   width: 518px !important;

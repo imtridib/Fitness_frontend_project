@@ -673,7 +673,7 @@ body {
   width: 326px !important;
   margin-left: 0px;
   margin-top: 35px;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   display: flex;
   width: 160px;
   height: 34px;
@@ -1149,13 +1149,16 @@ footer {
   .hide_card_image {
     display: none;
   }
-.header_of_card > p {
-  text-align: left;
-  width: 320px !important;
-  margin-left: 0px;
-  line-height: 25px !important;
-  margin-top: 135px;
-}
+  .header_of_card > p {
+    text-align: left;
+    width: 320px !important;
+    margin-left: 0px;
+    line-height: 25px !important;
+    margin-top: 135px;
+  }
+  .header_of_card > h5 {
+    font-size: 2.3rem;
+  }
 
   /* BMI_Calc_Head */
   .BMI_Calc_Head {
